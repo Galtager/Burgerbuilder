@@ -28,6 +28,7 @@ class BurgerIng extends Component{
             case('bacon'):
                 ingredient=<div className={styles.Bacon}></div>;
                 break;
+            default:;
         }
         return ingredient;
     
